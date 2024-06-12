@@ -18,6 +18,14 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
+	const count =0;
+	library.map(item=>{
+		if(item.readingStatus==="true"){
+			count++;
+		}
+	})
+	return count;
 };
+numberOfBooksRead();
 
 // Do not change the code below
